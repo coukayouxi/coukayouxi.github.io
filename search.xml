@@ -230,9 +230,9 @@
     <title>结构体-基本运用</title>
     <url>/2026/04/11/%E7%BB%93%E6%9E%84%E4%BD%93-%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%94%A8/</url>
     <content><![CDATA[<h1 id="结构体的定义"><a href="#结构体的定义" class="headerlink" title="结构体的定义"></a>结构体的定义</h1><p>我们使用<code>struct</code>来定义结构体，格式如下</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> 结构体名字&#123;</span><br><span class="line">  类型名 变量名</span><br><span class="line">&#125;；</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> 结构体名字&#123;</span><br><span class="line">  类型名 变量名</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <p>例如我们定义一个坐标结构体：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">zuobiao</span>&#123;</span><br><span class="line">  <span class="type">int</span> x,y;</span><br><span class="line">&#125;；</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">zuobiao</span>&#123;</span><br><span class="line">  <span class="type">int</span> x,y;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 <h1 id="结构体的使用"><a href="#结构体的使用" class="headerlink" title="结构体的使用"></a>结构体的使用</h1><p>我们可以直接像<code>int</code>那样定义结构体变量和数组。</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">zuobiao tr;</span><br></pre></td></tr></table></figure>
 <p>我们用<code>.</code>操作符来访问结构体的元素。</p>
@@ -296,7 +296,7 @@
 <h1 id="结构体运算符"><a href="#结构体运算符" class="headerlink" title="结构体运算符-&gt;"></a>结构体运算符-&gt;</h1><p><code>-&gt;</code>运算符一般用来访问结构体中的指针内容，格式<code>结构体名-&gt;指针名</code>，例如s结构体中的*p指针：</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">s-&gt;p</span><br></pre></td></tr></table></figure>
 <h2 id="this"><a href="#this" class="headerlink" title="this"></a>this</h2><p><code>this</code>是当前结构体的指针，也可以用<code>this</code>来访问。</p>
-<h1 id="结构体函数"><a href="#结构体函数" class="headerlink" title="结构体函数"></a>结构体函数</h1><p>结构体不仅可以放变量也可以放函数，也是通过<code>.</code>运算符来访问。</p>
+<h1 id="结构体函数"><a href="#结构体函数" class="headerlink" title="结构体函数"></a>结构体函数</h1><p>结构体不仅可以放变量也可以放函数，不过我们一般叫结构体里的函数为<code>方法</code>，也是通过<code>.</code>运算符来访问。</p>
 <p>结构体函数里面可以直接访问当前结构体的变量。</p>
 <p>当传入的参数和结构体某一个变量一样的话就可以使用刚学过的<code>this</code>来区分。</p>
 <p>例如定义一个获取结构体中 $a,b$ 变量之和，可以写出如下代码</p>
