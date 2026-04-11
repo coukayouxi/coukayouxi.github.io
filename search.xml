@@ -292,7 +292,7 @@
   <entry>
     <title>结构体-进阶运用</title>
     <url>/2026/04/11/%E7%BB%93%E6%9E%84%E4%BD%93-%E8%BF%9B%E9%98%B6%E8%BF%90%E7%94%A8/</url>
-    <content><![CDATA[<p>$\colorbox{red}{请先看}$<a href="http://nh.shiyingshiyan.cn/blog/189/69d8b801f07c04bbcb4bf45d">结构体的基本运用</a></p>
+    <content><![CDATA[<p><span style="background-color: red;">请先看</span><a href="/2026/04/11/%E7%BB%93%E6%9E%84%E4%BD%93-%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%94%A8/">结构体的基本运用</a></p>
 <h1 id="结构体运算符"><a href="#结构体运算符" class="headerlink" title="结构体运算符-&gt;"></a>结构体运算符-&gt;</h1><p><code>-&gt;</code>运算符一般用来访问结构体中的指针内容，格式<code>结构体名-&gt;指针名</code>，例如s结构体中的*p指针：</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">s-&gt;p</span><br></pre></td></tr></table></figure>
 <h2 id="this"><a href="#this" class="headerlink" title="this"></a>this</h2><p><code>this</code>是当前结构体的指针，也可以用<code>this</code>来访问。</p>
@@ -317,8 +317,8 @@
 <p>示例</p>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">struct</span> <span class="title class_">s</span>&#123;</span><br><span class="line">  <span class="keyword">private</span>:</span><br><span class="line">  <span class="comment">//私有</span></span><br><span class="line">  <span class="type">int</span> a,b;</span><br><span class="line">  <span class="keyword">public</span>:</span><br><span class="line">  <span class="comment">//公有</span></span><br><span class="line">  <span class="function"><span class="type">int</span> <span class="title">geta</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> a;</span><br><span class="line">    &#125;</span><br><span class="line">  <span class="function"><span class="type">int</span> <span class="title">getb</span><span class="params">()</span> <span class="type">const</span> </span>&#123;</span><br><span class="line">    <span class="keyword">return</span> b;</span><br><span class="line">    &#125;</span><br><span class="line">  <span class="function"><span class="type">void</span> <span class="title">seta</span><span class="params">(<span class="type">int</span> aa)</span></span>&#123;</span><br><span class="line">    a=aa;</span><br><span class="line">    a=a/__gcd(a,b);</span><br><span class="line">    b=b/__gcd(a,b);</span><br><span class="line">    &#125;</span><br><span class="line">  <span class="function"><span class="type">void</span> <span class="title">setb</span><span class="params">(<span class="type">int</span> bb)</span></span>&#123;</span><br><span class="line">    b=bb;</span><br><span class="line">    b=b/__gcd(a,b);</span><br><span class="line">    a=a/__gcd(a,b);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;;</span><br></pre></td></tr></table></figure>
 
-<h2 id="运算符重载"><a href="#运算符重载" class="headerlink" title="运算符重载"></a>运算符重载</h2><p>$\colorbox{red}{此章节难度大大大大大大，新手勿碰！此章节不用搞懂，有个印象就行了！}$</p>
-<p><a href="http://nh.shiyingshiyan.cn/blog/189/69d9fd90f07c04bbcb4c7c85">我不信了！！！</a></p>
+<h2 id="运算符重载"><a href="#运算符重载" class="headerlink" title="运算符重载"></a>运算符重载</h2><p><span style="background-color: red;">此章节难度大大大大大大，新手勿碰！此章节不用搞懂，有个印象就行了！</span></p>
+<p><a href="/2026/04/11/%E7%BB%93%E6%9E%84%E4%BD%93-%E8%BF%9B%E9%98%B6%E8%BF%90%E7%94%A8-%E9%87%8D%E8%BD%BD%E8%BF%90%E7%AE%97%E7%AC%A6/">我不信了！！！</a></p>
 ]]></content>
       <categories>
         <category>C++</category>
