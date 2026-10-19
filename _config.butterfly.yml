@@ -1,0 +1,208 @@
+# Butterfly Theme Configuration
+
+# Navigation Menu
+menu:
+  首页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  关于: /about/ || fas fa-user
+  友链: /links/ || fas fa-link
+  论坛: /forum/ || fas fa-comments
+
+# Favicon
+favicon: /img/favicon.png
+
+# Avatar
+avatar:
+  img: /img/avatar.png
+  effect: false
+
+# Social Icons
+social:
+  Github: https://github.com/coukayouxi || fab fa-github || '#24292e'
+  Email: mailto:3127500373@qq.com || fas fa-envelope || '#4a7dbe'
+
+# Dark Mode
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: false
+  startDark: true
+
+# Website Background
+background: https://i.pinimg.com/originals/32/66/6e/32666e5de7b628cee67c41f8180e5e5c.png
+
+# Header Background
+index_img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZMTaKXpHaCik9TItiHniwECtw1p69a4SFag&s
+
+# Footer Background
+footer_bg: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZMTaKXpHaCik9TItiHniwECtw1p69a4SFag&s
+
+# Subtitle (typed effect)
+subtitle:
+  enable: true
+  effect: true
+  typed: true
+  typed_option:
+    strings:
+      - 今天是多么美好的一天啊
+      - 小鸟在歌唱，鲜花在绽放
+      - 像你这样的孩子...
+      - 就应该在地狱里焚烧
+      - ZZZ(这只骷髅在大声喊Z来装睡)
+      - 在这个世界上，不是杀人，就是被杀！
+  source: false
+  sub:
+    - 今天是多么美好的一天啊
+    - 小鸟在歌唱，鲜花在绽放
+    - 像你这样的孩子...
+    - 就应该在地狱里焚烧
+    - ZZZ(这只骷髅在大声喊Z来装睡)
+    - 在这个世界上，不是杀人，就是被杀！
+
+# Announcement
+card_announcement:
+  enable: true
+  content: 欢迎来到我的博客！
+
+# Busuanzi (Visitor Count)
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# Runtime (Site Running Days)
+runtimeshow:
+  enable: true
+  publish_date: 2025/01/01 00:00:00
+
+# Last Push Date
+last_push_date:
+  enable: true
+  text: 最后更新时间
+
+# Post Meta Display
+post_meta:
+  page:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+# Post Copyright
+post_copyright:
+  enable: true
+  decode: false
+  author_href: https://coukayouxi.github.io
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+# Code Highlight
+highlight_theme: default
+highlight_copy: true
+highlight_lang: true
+highlight_height_limit: false
+highlight_shrink: false
+
+# Comments (Giscus)
+comments:
+  use: Giscus
+  text: true
+  lazyload: false
+  count: true
+
+giscus:
+  repo: coukayouxi/coukayouxi.github.io
+  repo_id: R_kgDOMzdL1A
+  category_id: DIC_kwDOMzdL1M4CwBEN
+  theme:
+    light: light
+    dark: dark
+  option:
+    mapping: pathname
+    lang: zh-CN
+    reactions-enabled: 1
+
+# Local Search
+local_search:
+  enable: true
+  preload: false
+  top_n_per_article: 1
+  unescape: false
+  CDN:
+
+# Fancybox
+fancybox:
+  enable: true
+
+# Lazyload
+lazyload:
+  enable: true
+  field: site
+  placeholder: data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7
+  blur: false
+
+# Translate (Traditional/Simplified Chinese)
+translate:
+  enable: true
+  default: 繁
+  defaultEncoding: 2
+  translateDelay: 0
+  msgToTraditionalChinese: '繁'
+  msgToSimplifiedChinese: '簡'
+
+# Copy Settings
+copy:
+  enable: true
+  copyright:
+    enable: false
+  success: 复制成功
+  error: 复制失败
+  noSupport: 浏览器不支持
+
+# Reading Mode
+readmode: true
+
+# Percentage of TOC
+percent:
+  toc: true
+  rightside: false
+
+# Footer
+footer:
+  owner:
+    enable: true
+    since: 2025
+
+# Inject (Custom scripts)
+inject:
+  head: []
+  bottom:
+    - |
+      <script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+    - |
+      <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "360831bc3c8145348781701d6b01e4f2"}'></script>
+    - |
+      <img src="https://w.saobby.com/w/o8ncjbd1">
+
+# CDN
+CDN:
+  internal_provider: local
+
+# Math
+katex:
+  enable: true
+  per_page: true
+  copy_tex: true
+
+# Anchor
+anchor:
+  auto_anchors: false
